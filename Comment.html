@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>一键教学评估</title>
+    <link rel="stylesheet" href="Comment_style.css">
+</head>
+<body>
+<div class="full_medium"></div>
+
+<!--课程信息如下-->
+<div class="Course_info">
+    <div class="teacher_img">
+        <img src="background.jpg" alt="" width="100%" height="100%" class="pic_radius">
+    </div>
+    <div class="full_small"></div>
+    <div class="container">
+
+        <!--教师姓名-->
+        <div class="font_big">
+            蒋志刚
+        </div>
+        <div class="full_small"></div>
+
+        <!--课程名称-->
+        <div class="font_medium">
+            <span>工科数学分析</span>
+            <span class="next">
+                <!--切换课程-->
+                <a href="#">
+                    <img src="star_y.png" alt="">
+                </a>
+            </span>
+        </div>
+
+    </div>
+</div>
+<div class="full_medium"></div><div class="full_big"></div><div class="full_medium"></div>
+
+<!--客观评价如下,星星的个数存在js里的grades数组里-->
+<div class="ob_comment">
+    <div class="font_big">客观评价</div>
+    <hr class="diver">
+    <div class="word_com font_big">
+        <ul>
+            <li>
+                精神饱满，讲课投入
+                <ul id="" title="0">
+                    <li class="star_on"><a href="javascript:;">1</a></li>
+                    <li class="star_on"><a href="javascript:;">2</a></li>
+                    <li class="star_on"><a href="javascript:;">3</a></li>
+                    <li class="star_on"><a href="javascript:;">4</a></li>
+                    <li class="star_on"><a href="javascript:;">5</a></li>
+                </ul>
+            </li>
+            <li>思路清晰，表达清楚
+                <ul title="1">
+                    <li class="star_on"><a href="javascript:;">1</a></li>
+                    <li class="star_on"><a href="javascript:;">2</a></li>
+                    <li class="star_on"><a href="javascript:;">3</a></li>
+                    <li class="star_on"><a href="javascript:;">4</a></li>
+                    <li class="star_on"><a href="javascript:;">5</a></li>
+                </ul>
+            </li>
+            <li>授课内容富有启发性
+                <ul title="2">
+                    <li class="star_on"><a href="javascript:;">1</a></li>
+                    <li class="star_on"><a href="javascript:;">2</a></li>
+                    <li class="star_on"><a href="javascript:;">3</a></li>
+                    <li class="star_on"><a href="javascript:;">4</a></li>
+                    <li class="star_on"><a href="javascript:;">5</a></li>
+                </ul>
+            </li>
+            <li>按时上课，进度合理
+                <ul title="3">
+                    <li class="star_on"><a href="javascript:;">1</a></li>
+                    <li class="star_on"><a href="javascript:;">2</a></li>
+                    <li class="star_on"><a href="javascript:;">3</a></li>
+                    <li class="star_on"><a href="javascript:;">4</a></li>
+                    <li class="star_on"><a href="javascript:;">5</a></li>
+                </ul>
+            </li>
+            <li>考核合理，激励学生
+                <ul title="4">
+                    <li class="star_on"><a href="javascript:;">1</a></li>
+                    <li class="star_on"><a href="javascript:;">2</a></li>
+                    <li class="star_on"><a href="javascript:;">3</a></li>
+                    <li class="star_on"><a href="javascript:;">4</a></li>
+                    <li class="star_on"><a href="javascript:;">5</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="full_medium"></div><div class="full_big"></div><div class="full_medium"></div>
+
+<!--主观评价如下-->
+<div class="sub_comment">
+    <div class="font_big">主观评价</div>
+    <hr class="diver">
+    <!--主观评语-->
+    <div class="container">
+        <form action="">
+
+            <!--评语文字-->
+            <textarea name="" cols="30" rows="10" placeholder="请在这里写下对老师的看法和意见" required class="text" maxlength="140" id="words"></textarea>
+            <hr class="diver">
+            <div class="score">
+
+                <!--分数-->
+                <span>你对老师教学质量评价分数:</span>
+                <textarea name="" cols="6" rows="1"  placeholder="0-100" required class="num" id="score"></textarea>
+            </div>
+            <div class="full_big"></div>
+            <div class="full_medium"></div>
+            <input type="submit" class="button" value="确认提交">
+        </form>
+    </div>
+    <div class="full_medium"></div>
+</div>
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="Comment_js.js"></script>
+</body>
+</html>

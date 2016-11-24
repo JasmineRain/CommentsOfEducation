@@ -1,0 +1,173 @@
+body{
+    margin:0;
+    min-width: 284px;
+}
+span{
+    margin:0 auto;
+}
+hr{
+    border: none;
+}
+ul{
+    padding: 0;
+    margin:0;
+}
+ul[title]{
+    display: inline;
+}
+p {
+    display: inline;
+}
+.container{
+    margin:0 auto;
+    width: 100%;
+}
+.font_small{
+    font-size: 10px;
+}
+.font_medium{
+    font-size:18px;
+    text-align: center;
+}
+.font_big{
+    font-size:24px;
+    text-align: center;
+}
+.full_small{
+    height: 8px;
+}
+.full_medium{
+    height: 16px;
+}
+.full_big{
+    height: 30px;
+    background: #EFEFEF;
+}
+.pic_radius{
+    border-radius: 50%;
+}
+.diver{
+    width: 100%;
+    height: 2px;
+    margin:10px 0;
+    background: #a7a7a7;
+}
+
+
+.Course_info{
+    width: 100%;
+}
+.teacher_img{
+    margin:0 auto;
+    max-width: 20%;
+    overflow: hidden;
+}
+.next{
+    position: absolute;
+    right: 30px;
+}
+div.font_medium{
+    color: #969696;
+}
+
+.ob_comment{
+    overflow: hidden;
+}
+.word_com{
+    text-align: center;
+}
+.word_com ul{
+    list-style-type:none;
+}
+.word_com li{
+    font-size:14px;
+    margin:20px 0;
+    color: #969696;
+}
+.star_com{
+    width:40%;
+    float: left;
+}
+.star_bar{
+    list-style-type:none;
+    display: block;
+    overflow: hidden;
+}
+.star_on{
+    background: url("star_y.png") no-repeat 100%;
+    width: 15%;
+    margin-left:5%;
+    text-indent: -999px;
+}
+.star_off{
+    background: url("star_w.png") no-repeat 100%;
+    width: 15%;
+    margin-left:5%;
+    text-indent: -999px;
+}
+.top{
+    margin-top:20px;
+}
+.mid{
+    margin-top:17px;
+}
+
+.text{
+    width: 95%;
+    font-size:16px;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.text:focus{
+    border: #fff65f;
+}
+.score{
+    width: 95%;
+    font-size:16px;
+    box-sizing: border-box;
+    padding: 15px;
+    overflow: hidden;
+}
+.score span{
+    height: 100%;
+    display: inline-block;
+    margin-top:6px;
+}
+.num{
+    width: 20%;
+    float: right;
+    border-radius: 5px;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size:16px;
+}
+.num:focus{
+    border: #fff65f;
+}
+.button{
+    display: block;
+    width: 90%;
+    margin:0 auto;
+    padding: 16px;
+    border: 1px solid #fff310;
+    background: #fff310;
+    color:#ffffff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size:16px;
+}
+.word_com ul li li,.word_com ul li ul,.word_com ul li p {
+    display: inline;
+}
+.word_com ul li li a{
+    font-size: large;
+    padding-right:15px;
+    line-height: 20px;
+}
+.star_off a,.star_on a{
+    visibility: hidden;
+}
